@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Teko');
+
+body{
+  font-family: 'Teko', sans-serif;
+  background-color: snow;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+.navbar{
+  /* position: static; */
+  width: 100%;
+  padding: 0px;
+}
+.menu{
+  margin: 0px;
+  padding: 0px;
+  background-color: #b10029;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+
+  @media(max-width: 450px) {
+    /* flex-flow: column wrap; */
+  }
+}
+.menu a {
+  padding: 1.1em;
+  display: block;
+  text-align:center;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item{
+
+}
+.menu-item:hover{
+  background-color: black;
+}
+
+.bg-image {
+  background:url('https://wallpapercave.com/wp/lwfQm84.jpg');
+  height: 100px;
+  display: center;
+  color: white;
+  background-size: cover;
+  border-bottom: 5px solid black;
+}
+
+.jumbotron h1 {
+
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.title{
+  text-shadow: 4px 3px #000000;
+  font-size: 2.5em;
+}
+.sub-title{
+  /* text-shadow: 4px 3px white; */
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: auto;
+}
+
+#logo{
+  position:absolute;
+  left:10px;
+  overflow:hidden;
+  font-weight: bold!important;
+  /* font-family: 'Allerta Stencil', sans-serif; */
+  /* font-family: 'Leckerli One', cursive; */
+  font-family: 'Righteous', cursive;
+
+}
+#logo-text{
+  /* position:absolute;
+  left:30px;
+  overflow:hidden;
+  font-weight: bold; */
+  /* font-family: 'Allerta Stencil', sans-serif; */
+  /* font-family: 'Leckerli One', cursive; */
+  font-family: 'Righteous', cursive;
+  flex-grow: 1;
+
+}
+#logo-text a{
+  text-align: left;
+}
+/*
+#logo i{
+font-size:20px!important;
+} */
+
+.carousel-item{
+  height: 200px;
+}
+
+.banner-charts{
+  background-color: lightgrey;
+  text-align: center;
+  height: 3em;
+}
+
+.banner-charts h4{
+  margin: auto;
+  padding: auto;
+  line-height: 3em;
+  color: white;
+}
+
+.charts{
+  height: 400px;
+  /* background: red; */
+  width: 100%;
+  display: flex;
+}
+
+.charts #top1{
+  width: 60%;
+  height: 100%;
+  background:url('https://mcetv.fr/wp-content/uploads/2018/08/Travis-Scott-Son-album-Astroworld-cartonne-et-il-d%C3%A9tr%C3%B4ne-Drake-au-Billboard-grande.jpg');
+  background-size: cover;
+  transition: all 0.3s ease-in;
+}
+.charts #top1:hover{
+  width: 65%;
+  transition-timing-function: ease-in;
+}
+
+.charts #top2{
+  width: 20%;
+  height: 100%;
+  background:url('https://i1.sndcdn.com/artworks-000146014059-rlsk88-t500x500.jpg');
+  background-size: cover;
+  transition: all 0.3s ease-in;
+}
+.charts #top2:hover{
+  width: 25%;
+  transition-timing-function: ease-in;
+}
+.charts #top3{
+  width: 20%;
+  height: 100%;
+  background:url('http://www.music-news.com/images/news/Bruno-Mars.jpg');
+  background-size: cover;
+  transition: all 0.3s ease-in;
+}
+
+.charts .caption{
+  height: 10%;
+  background-color: white;
+  display: inline-flex;
+  /* transition: all 1s ease-in; */
+  padding: 2%;
+}
+.charts #top3:hover{
+  width: 25%;
+  transition-timing-function: ease-in;
+}
+.charts a{
+  overflow: hidden;
+}
+.charts a:hover{
+  overflow: visible;
+  color: red;
+}
+
+.top-list{
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0;
+}
+.top-list li:nth-child(even) {background: white;}
+.top-list li:nth-child(odd) {background: lightgrey;}
+
+.top-list a{
+  text-decoration: none;
+  color: inherit;
+  /* margin-left: 1%; */
+}
+.top-list a:hover{
+  text-decoration: underline;
+}
+.top-list li {
+  height: 10%;
+  display: flex;
+  align-items:center;
+  margin-top: 0.5%;
+}
+
+.top-position{
+  width: 3%;
+  text-align:center;
+
+}
+
+.single-cover{
+  margin:0.5%;
+  width: 5%;
+}
+
+footer{
+  background-color: #b10029;
+  height: 300px;
+}
+
+.album-charts{
+  background-color: #b10029;
+}
+
+.col p{
+  text-align: center;
+}
+
+.col{
+  width: 15%;
+  display: inline-block;
+  padding: 2%;
+  text-align: center;
+  margin: auto;  /* Magic! */
+}
+
+.col a{
+  color: white;
+  text-decoration: none;
+}
+
+.col a:hover{
+  color: black;
+  /* text-decoration: underline; */
+}
+
+.row{
+  text-align: center;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-around;
+}
+
+#title-album{
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: auto;
+  padding-top: 3%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer ul li{
+  list-style: none;
+}
+.footer-group{
+  display: flex;
+  /* justify-content: space-between; */
+
+}
+.footer-list{
+  width: 20%;
+  padding: 5%;
+}
+
+#footer-logo{
+  width: 60%;
+  padding: 5%;
+  font-family: 'Righteous', cursive;
+}
+
+#footer-logo a{
+  font-size: 5em;
+  padding: 5%;
+  text-decoration: none;
+}
+
+#copyright{
+  background-color: #b10029;
+  text-align: center;
+  color: white;
+  padding: 1%;
+}

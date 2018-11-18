@@ -1,0 +1,93 @@
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .menu{
+    flex-direction: column;
+  }
+  .menu #logo-text a{
+    text-align: center;
+  }
+
+  #logo-text:hover{
+    background-color: none!important;
+  }
+
+  .charts{
+    flex-direction: column;
+  }
+
+  .charts #top1{
+    width: 100%;
+    background:url('https://mcetv.fr/wp-content/uploads/2018/08/Travis-Scott-Son-album-Astroworld-cartonne-et-il-d%C3%A9tr%C3%B4ne-Drake-au-Billboard-grande.jpg');
+    background-size: cover;
+    transition: all 0.3s ease-in;
+  }
+
+  .charts #top2{
+    width: 100%;
+    height: 100%;
+    background:url('https://i1.sndcdn.com/artworks-000146014059-rlsk88-t500x500.jpg');
+    background-size: cover;
+    transition: all 0.3s ease-in;
+  }
+
+  .charts #top3{
+    width: 100%;
+    background:url('http://www.music-news.com/images/news/Bruno-Mars.jpg');
+    background-size: cover;
+    transition: all 0.3s ease-in;
+  }
+
+  .charts #top1:hover {
+    width: inherit;
+  }
+  .charts #top2:hover {
+    width: inherit;
+  }
+  .charts #top3:hover {
+    width: inherit;
+  }
+
+  .charts .caption p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .top-position{
+    padding: 3%;
+  }
+
+
+
+  .row{
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .col{
+    width: auto;
+  }
+  .album-cover{
+    width: 80%;
+  }
+  .col p{
+    font-size: 0.8em;
+  }
+
+  .container{
+    width: 95%;
+  }
+
+  .single-cover{
+    width: 15%;
+    margin: 0.2em;
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
