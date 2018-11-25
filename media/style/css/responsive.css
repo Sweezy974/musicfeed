@@ -81,13 +81,62 @@
     margin: 0.2em;
   }
 
+  .bg-image h1{
+    top:40%;
+  }
+
+  #footer-logo a{
+    font-size: 2em;
+
+  }
+
+  #album-head{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #album-cover{
+    width: auto;
+  }
+
+  #album-description{
+    width: auto;
+    text-align: center;
+  }
+
+  #album-description .description-name {
+    display: flex;
+    flex-direction: column;
+  }
+  #album-honor{
+    flex-direction:column;
+    text-align: center;
+  }
+
+  .page-container{
+    width: auto;
+  }
+  .artist-album{
+
+  }
+
+  #discography{
+    flex-direction: column;
+  }
+
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) {
+}
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .bg-image h1{
+    top:9%;
+  }
+}
 
 /* Large desktop */
 @media (min-width: 1200px) { ... }
