@@ -14,13 +14,10 @@
         <img  src="https://www.tinymixtapes.com/sites/default/files/imagecache/Article_Width/arton3820_0.jpg ">
       </div>
       <div id="album-description">
-        <div class="description-name"><p>Titre de l'album : </p><p style="font-weight:bold;margin-left:1%;">T.I. vs T.I.P</p></div>
-        <div class="description-name"><p>Artiste : </p><p style="font-weight:bold;margin-left:1%;">T.I.</p></div>
-        <div class="description-name"><p>Genre : </p><p style="font-weight:bold;margin-left:1%;">Hip-Hop</p></div>
-        <div class="description-name"><p>Date de sortie : </p><p style="font-weight:bold;margin-left:1%;">17/05/2009</p></div>
+        <div class="description-name"><p>Artiste : <strong>T.I.</strong></p></div>
+        <div class="description-name"><p>Genre : <strong>Hip-Hop</strong></p></div>
+        <div class="description-name"><p>Date de sortie : <strong>17/05/2009</strong></p></div>
       </div>
-      <br>
-
     </div>
     <div id="album-honor">
       <h3><i class="material-icons">star</i> n° 1</h3>

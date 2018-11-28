@@ -304,27 +304,37 @@ footer ul li{
   padding: 1%;
 }
 
-#album-name{
+#album-name,#single-name{
   text-align: center;
   /* width: 30%; */
+  padding-top:2%;
+  margin: 0;
 }
 
+h1 #artist-name{
+  font-weight: lighter;
+  font-size: smaller;
+}
 
-#album-head{
+#album-head,#single-head{
   display: flex;
-  margin: 2%;
+  /* margin: 2%; */
+  justify-content: center;
 
 }
 
-#album-cover{
-  width: 30%;
-  text-align: center;
-  margin: auto;
+#album-cover, #single-cover{
+  /* width: 30%; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  margin: 1%;
 }
 
-#album-description{
-  width: 70%;
-  list-style:none;
+#album-description,#single-description{
+  /* width: 70%; */
+  /* list-style:none; */
+  margin: 1%;
 }
 
 .page-container{
@@ -333,12 +343,12 @@ footer ul li{
   margin-top: 3%;
 }
 
-#album-description .description-name{
+#album-description .description-name, #single-description .description-name{
   margin:auto;
   display: flex;
 }
 
-#album-honor{
+#album-honor,#single-honor{
   display: flex;
   /* margin: 2%; */
   justify-content: space-around;
@@ -347,23 +357,30 @@ footer ul li{
 
 }
 
-#album-honor .material-icons{
+#album-honor .material-icons, #single-honor .material-icons{
   color: #ffc100;
 }
 
-#album-honor h3{
+#album-honor h3, #single-honor h3{
   font-weight: lighter;
 
 }
 
-#album-honor a{
+#album-honor a, #single-honor a{
   color: white;
   text-decoration: none;
 }
 
-#album-honor a:hover{
+#album-honor a:hover,#single-honor a:hover{
   color: black;
 }
+
+
+#single-honor{
+  background-color: black;
+  color: white;
+}
+
 
 #tracklist{
   text-align: center;
@@ -437,14 +454,63 @@ footer ul li{
 }
 
 .user-reply{
-color:  #b10129;
-text-decoration: none;
+  color:  #b10129;
+  text-decoration: none;
 }
 
 .user-reply:hover{
-color:  black;
+  color:  black;
 }
 
 #comments-title{
   /* text-align: center; */
+}
+
+#single-head{
+  /* justify-content: flex-start; */
+}
+
+
+#single-description{
+  display: flex;
+  justify-content: space-around;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#head-jumbotron{
+  background-image: linear-gradient(to right, black,#610016,black);
+  color: white;
+  padding-bottom: 1%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.lyrics-container{
+  display: flex;
+  justify-content: flex-start;
+}
+.lyrics-container #lyrics{
+  width: 68%;
+  padding-right: 2%;
+}
+
+#aside-container{
+  width: 30%;
+}
+
+#aside-container .related-song{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#aside-container .related-song p{
+
+}
+
+#aside-container .related-song .related-song-description {
+display: flex;
+flex-direction: column;
 }
