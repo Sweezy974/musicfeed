@@ -86,50 +86,8 @@
       </table>
 
     </div>
-    <h1>Discographie de l'artiste</h1>
-    <hr>
-    <div id="discography">
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-      <div class="artist-album">
-        <img src="https://files.musicmp3.ru/scovers/als10211.jpg" alt="">
-        <br>
-        <p>Trap Muzik <br>2003</p>
-      </div>
-    </div>
+    <!-- discography -->
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/page/artist/discography.php'); ?>
     <!-- comments -->
     <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/comments.php'); ?>
 

@@ -44,7 +44,7 @@ body{
 }
 
 .bg-image {
-  background:url('https://wallpapercave.com/wp/lwfQm84.jpg');
+  background:url('https://cdn.guidingtech.com/imager/media/assets/192578/Stunning-Space-Wallpapers-1_180312_191213_4d470f76dc99e18ad75087b1b8410ea9.png?1524151217');
   height: 100px;
   display: center;
   color: white;
@@ -137,30 +137,28 @@ font-size:20px!important;
 .charts #top1{
   width: 60%;
   height: 100%;
-  background:url('https://mcetv.fr/wp-content/uploads/2018/08/Travis-Scott-Son-album-Astroworld-cartonne-et-il-d%C3%A9tr%C3%B4ne-Drake-au-Billboard-grande.jpg');
+  background:url('https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F11%2Ffiles%2F2018%2F07%2Ftravis-scott-astroworld.png?fit=max&cbr=1&q=90&w=1024&h=683');
   background-size: cover;
   transition: all 0.3s ease-in;
 }
 .charts #top1:hover{
   width: 65%;
-  transition-timing-function: ease-in;
 }
 
 .charts #top2{
   width: 20%;
   height: 100%;
-  background:url('https://i1.sndcdn.com/artworks-000146014059-rlsk88-t500x500.jpg');
+  background:url('https://www.udiscovermusic.com/wp-content/uploads/2018/06/Ariana-Grande-No-Tears-Left-To-Cry-packshot-cropped-web-optimised-1000.jpg');
   background-size: cover;
   transition: all 0.3s ease-in;
 }
 .charts #top2:hover{
   width: 25%;
-  transition-timing-function: ease-in;
 }
 .charts #top3{
   width: 20%;
   height: 100%;
-  background:url('http://www.music-news.com/images/news/Bruno-Mars.jpg');
+  background:url('https://www.thesun.co.uk/wp-content/uploads/2018/10/vlcsnap-2018-10-01-09h33m35s208-e1538384770489.png?w={width}');
   background-size: cover;
   transition: all 0.3s ease-in;
 }
@@ -174,7 +172,6 @@ font-size:20px!important;
 }
 .charts #top3:hover{
   width: 25%;
-  transition-timing-function: ease-in;
 }
 .charts a{
   overflow: hidden;
@@ -184,6 +181,11 @@ font-size:20px!important;
   color: red;
 }
 
+.charts *:hover{
+  transition-timing-function: ease-in;
+  filter: saturate(20%);
+}
+
 .top-list{
   font-size: 1.5em;
   list-style: none;
@@ -191,6 +193,7 @@ font-size:20px!important;
 }
 .top-list li:nth-child(even) {background: white;}
 .top-list li:nth-child(odd) {background: lightgrey;}
+
 
 .top-list a{
   text-decoration: none;
@@ -511,6 +514,6 @@ h1 #artist-name{
 }
 
 #aside-container .related-song .related-song-description {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
