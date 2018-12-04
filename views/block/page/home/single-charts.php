@@ -1,4 +1,4 @@
-<h1 id="title-single">Top 10 singles</h1>
+<h2 id="title-single">Top 10 singles</h2>
 <hr>
 <!-- <div class="charts-list">
 <img src="https://via.placeholder.com/150C/O https://placeholder.com/" alt=""> -->

@@ -1,6 +1,6 @@
 <div class="album-charts">
   <div class="container">
-    <h1 id="title-album">Top 10 albums</h1>
+    <h2 id="title-album">Top 10 albums</h2>
     <hr>
     <div class="row">
       <a href="views/artist/T.I/album/TI-vs-TIP/">

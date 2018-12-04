@@ -6,30 +6,8 @@
   <!-- navbar -->
   <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/navbar.php'); ?>
 
-  <div class="jumbotron">
-    <div class="bg-image">
-      <h1>Top des charts</h1>
-    </div>
-    <!-- <h1 class="title">Top des charts</h1> -->
-    <div class="charts">
-      <a href="/musicfeed/views/artist/Travis-Scott/single/SickoMode/" id="top1">
-        <div class="caption">
-          <p>1. TraviS Scott - Sicko mode</p>
-        </div>
-      </a>
-      <a href="/musicfeed/views/artist/Ariana-Grande/single/ThankUNext/" id="top2">
-        <div class="caption">
-          <p>2. Ariana Grande - Thank u, next</p>
-        </div>
-      </a>
-
-      <a href="/musicfeed/views/artist/XXXTENTACION/single/BAD/"  id="top3">
-        <div class="caption">
-          <p>3. XXXTENTACION - BAD!</p>
-        </div>
-      </a>
-    </div>
-  </div>
+  <!-- top 3 singles -->
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/page/home/single-top3.php'); ?>
 
   <div class="container">
     <!-- single charts -->
