@@ -88,6 +88,8 @@
     </div>
     <!-- discography -->
     <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/page/artist/discography.php'); ?>
+    <!-- discography -->
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/page/artist/related-album.php'); ?>
     <!-- comments -->
     <?php include($_SERVER['DOCUMENT_ROOT'].'/musicfeed/views/block/comments.php'); ?>
 
