@@ -6,16 +6,12 @@
       </div>
 
       <ul class="footer-list">
-        <!-- <li id="logo"><a href="#"><i class="material-icons">music_note</i></a></li> -->
-        <li class="" id="" ><a href="#"> lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
       </ul>
       <ul class="footer-list">
-        <!-- <li id="logo"><a href="#"><i class="material-icons">music_note</i></a></li> -->
-        <li class="" id="" ><a href="#"> lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
         <li class=""><a href="#">lorem</a></li>
         <li class=""><a href="#">lorem</a></li>

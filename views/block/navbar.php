@@ -7,6 +7,6 @@
     <li class="menu-item"><a href="#">Catégories</a></li>
     <li class="menu-item"><a href="#">À Propos de Moi</a></li>
   -->
-  <li class="menu-item"><a href="#">Contact</a></li>
+  <!-- <li class="menu-item"><a href="#">Contact</a></li> -->
   </ul>
 </nav>
