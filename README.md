@@ -7,4 +7,4 @@ Install (windows) :
 
 - place the folder in your wamp folder : www/
 - run wamp
-- go to http://localhost:/musicfeed/
+- go to http://localhost/musicfeed/
